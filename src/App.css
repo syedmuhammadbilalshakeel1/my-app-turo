@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.heading{
+  color: black;
+  /* background-color: #000000; */
+}
+.firstback{
+  /* background-color: RGB(108, 117, 125); */
+  background-color: #f4f4f4;
+}
+/* .py-1 {
+  padding-bottom: 0.25rem!important;
+  padding-top: 0.25rem!important;
+} */
+.button-outer{
+  /* display: flex!important; */
+}
+.banner-bg{
+background-image: url(./all-compounent/images/second\ back\ ground\ image.jpg);
+}

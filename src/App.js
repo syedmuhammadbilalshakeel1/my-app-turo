@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import FIRSTDIV from "./all-compounent/header/index";
+import IMop from "./all-compounent/images/image";
+import Banner_bg from "./all-compounent/images";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="conatiner">
+      <div className="firstback">
+        <h5>
+          <FIRSTDIV />
+        </h5>
+      </div>
+
+      <div className="">
+        <div className="image">
+          <IMop />
+        </div>
+
+
+      </div>
+
+      <div className="banner-bg">
+        <div className="conatiner">
+          <div className="row">
+            <div className="col">
+
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }

@@ -1,0 +1,16 @@
+.imge-one{
+    vertical-align: middle;
+    /* width: 20px;
+    height: 30px; */
+    width: 100px;
+    
+}
+.image-icon{
+/* margin-left: 20px; */
+}
+.icon{
+/* margin-left: 30px; */
+/* display: flex; */
+justify-content: space-between;
+width: 40px;
+}
